@@ -8,11 +8,11 @@ def evenOrOdd(number: int) -> str:
     return 'this number is even!' if number % 2 ==0 else 'this number is odd!'
 
 def main() -> None:
-    print(evenOrOdd(2))
-    print(evenOrOdd(3))
-    print(evenOrOdd(-1))
-    print(evenOrOdd(0))
-    print(evenOrOdd(5))
+    print(evenOrOdd(2))   # this number is even!
+    print(evenOrOdd(3))   # this number is odd!
+    print(evenOrOdd(-1))  # this number is odd!
+    print(evenOrOdd(0))   # this number is even!
+    print(evenOrOdd(5))   # this number is odd!
 
 if __name__ == '__main__':
     main()
