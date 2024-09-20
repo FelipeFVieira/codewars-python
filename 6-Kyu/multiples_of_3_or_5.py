@@ -7,6 +7,9 @@ Additionally, if the number is negative, return 0.
 
 Note: If the number is a multiple of both 3 and 5, only count it once.
 
+Kata Level: 6 Kyu
+
+Link: https://www.codewars.com/kata/514b92a657cdc65150000006
 """
 
 def solution( limit_num: int ) -> int :

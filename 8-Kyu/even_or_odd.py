@@ -3,6 +3,9 @@
 Kata description: Create a function that takes an integer
 as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
+Kata Level: 8 Kyu
+
+Link: https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
 """
 def evenOrOdd(number: int) -> str:
     return 'this number is even!' if number % 2 ==0 else 'this number is odd!'
